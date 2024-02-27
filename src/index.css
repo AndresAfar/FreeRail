@@ -3,7 +3,12 @@
 @tailwind utilities;
 
 :root{
-  background-color: #101518;
+  background-color: #101419;
+}
+
+.container{
+  max-width: 960px;
+  margin: auto;
 }
 
 /*
