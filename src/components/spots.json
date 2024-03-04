@@ -1,0 +1,12 @@
+[
+    {
+        "id":1,
+        "nombre":"Fontanar del Rio",
+        "descripcion":"Un skatepark grande con modulos de diferentes dificultades"
+    },
+    {
+        "id":2,
+        "nombre":"Parque Piloto",
+        "descripcion":"Un skatepark pequenio en forma de circutio"
+    }
+]
