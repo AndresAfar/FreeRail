@@ -2,11 +2,13 @@
     {
         "id":1,
         "nombre":"Fontanar del Rio",
-        "descripcion":"Un skatepark grande con modulos de diferentes dificultades"
+        "descripcion":"Un skatepark grande con modulos de diferentes dificultades",
+        "img":"https://cartelurbano.com/sites/default/files/skate-cuadro_0.jpg"
     },
     {
         "id":2,
         "nombre":"Parque Piloto",
-        "descripcion":"Un skatepark pequenio en forma de circutio"
+        "descripcion":"Un skatepark pequenio en forma de circutio",
+        "img":"https://lh3.googleusercontent.com/p/AF1QipPP9SpGCXJTtZx84QQwaHbXmiYfUFrFz4bKyWvx=s680-w680-h510"
     }
 ]
