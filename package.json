@@ -7,14 +7,17 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "fake-api": "json-server --watch src/components/spots.json --port 5000"
   },
   "dependencies": {
     "axios": "^1.6.7",
+    "leaflet": "^1.9.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.50.1",
     "react-hot-toast": "^2.4.1",
+    "react-leaflet": "^4.2.1",
     "react-router-dom": "^6.22.1"
   },
   "devDependencies": {
