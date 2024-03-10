@@ -47,6 +47,9 @@ export const Home = () => {
               </MapContainer>
             </div>
         </div>
+        <div className='content-bts w-full  my-8 grid justify-items-end'>
+          <button className=' text-white bg-[#293038] md:text-base p-3 rounded-lg'>Nuevo Spot</button>
+        </div>
         <div className='content-spots h-full w-full mt-10 '>
             <span className='text-white text-3xl my-2'>Spots</span>
             <SpotCard>
