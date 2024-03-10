@@ -8,7 +8,7 @@ export const Navbar = () => {
                 <div className="flex lg:flex-1">
                     <a href="#" className="inline-flex -m-1.5 p-1.5">
                         <img className="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt=""/>
-                        <span className="text-white text-3xl pb-2 mx-4 font-bold">FreeRail</span>
+                        <span className="text-white text-xl lg:text-3xl pb-2 mx-4 font-bold">FreeRail</span>
                     </a>
                 </div>
                 <div className='flex md:hidden'>
@@ -22,13 +22,13 @@ export const Navbar = () => {
                 <div class="hidden w-full md:block md:w-auto" id="navbar-default">
                     <ul class="font-bold flex flex-col p-6 md:p-0 md:items-center mt-4 border border-[#e26767] rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
                         <li>
-                            <a href="#about-me" className='block py-2 px-3 md:p-0 text-[#cdd9e4] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#df9a9a] md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent'>Sobre mi</a>
+                            <a href="#about-me" className='block py-2 px-3 md:p-0 text-sm text-[#cdd9e4] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#df9a9a] md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent'>Sobre mi</a>
                         </li>
                         <li>
-                            <a href="#projects" className='block py-2 px-3 md:p-0 text-[#cdd9e4] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#df9a9a] md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent'>Proyectos</a>
+                            <a href="#projects" className='block py-2 px-3 md:p-0 text-sm text-[#cdd9e4] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#df9a9a] md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent'>Proyectos</a>
                         </li>
                         <li>
-                            <a href="#concat" className='block py-2 px-3 md:p-0 text-[#cdd9e4] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#df9a9a] md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent'>Contacto</a>                    
+                            <a href="#concat" className='block py-2 px-3 md:p-0 text-sm text-[#cdd9e4] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#df9a9a] md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent'>Contacto</a>                    
                         </li>
                         <li>
                             <div className='relative'>
@@ -38,7 +38,7 @@ export const Navbar = () => {
                                     </svg>
                                 </div>
                                 <input type="text" className='rounded-md border-0 w-60 py-2.5 pl-9 text-white bg-[#293038]' placeholder='Buscar'/>
-                                <button type="submit" class="text-white absolute end-1 bottom-1 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-3 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Search</button>
+                                <button type="submit" className="text-white absolute end-1 bottom-1 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-3 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Search</button>
                             </div>
                         </li>
                     </ul>
