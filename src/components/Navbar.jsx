@@ -38,7 +38,6 @@ export const Navbar = () => {
                                     </svg>
                                 </div>
                                 <input type="text" className='rounded-md border-0 w-60 py-2.5 pl-9 text-white bg-[#293038]' placeholder='Buscar'/>
-                                <button type="submit" className="text-white absolute end-1 bottom-1 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-3 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Search</button>
                             </div>
                         </li>
                     </ul>
