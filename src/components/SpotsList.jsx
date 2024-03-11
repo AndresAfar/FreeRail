@@ -52,14 +52,14 @@ const SpotsList = (props) => {
   return (
 
 
-    <a _href="link" class="cursor-pointer w-48 mx-3 hover:-translate-y-2 duration-300 hover:shadow-lg'">
+    <a _href="link" className="cursor-pointer w-48 mx-3 hover:-translate-y-2 duration-300 hover:shadow-lg" key={props.id} >
       <figure>
         <a href="" target="_blank">
-          <img class="rounded-t-lg h-32 w-full aspect-auto" src={props.img} loading="lazy"/>
+          <img className="rounded-t-lg h-32 w-full aspect-auto" src={props.img} loading="lazy"/>
         </a>
-          <figcaption class="py-4 block text-white text-pretty">
-            <h1  class="mb-4 font-bold">{props.name}</h1>
-            <p class="text-sm">{props.description}</p>
+          <figcaption className="py-4 block text-white text-pretty">
+            <h1  className="mb-4 font-bold">{props.name}</h1>
+            <p className="text-sm">{props.description}</p>
           </figcaption>
       </figure>
     </a>
