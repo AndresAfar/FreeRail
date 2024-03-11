@@ -35,7 +35,6 @@ export const Home = () => {
                   ext='png'
                 />
                 <MarkerClusterGroup>
-
                 {markers.map(marker =>(
                   <Marker position={marker.geocode}>
                     <Popup>
@@ -48,14 +47,14 @@ export const Home = () => {
               </MapContainer>
             </div>
         </div>
-        <div className='content-bts w-full  my-8 grid justify-items-end'>
-          <button className=' text-white bg-[#293038] md:text-base p-3 rounded-lg'>Nuevo Spot</button>
+        <div className='content-bts w-full my-8 grid justify-items-end'>
+          <a href="/new-spot" type='button' className=' text-white bg-[#293038] md:text-base p-3 rounded-lg'>Nuevo Spot</a>
         </div>
         <div className='content-spots h-full w-full mt-10 '>
             <span className='text-white text-3xl my-2'>Spots</span>
             <SpotCard>
               {data.map(spot=>
-                <SpotsList name={spot.nombre} description={spot.descripcion} img={spot.img}/>
+                <SpotsList name={spot.nombre} description={spot.descripcion} img={spot.img} key={spot.id}/>
                 )}
             </SpotCard>
         </div>
