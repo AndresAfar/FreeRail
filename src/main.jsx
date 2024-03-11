@@ -5,12 +5,14 @@ import './index.css'
 
 import { Navbar } from './components/Navbar.jsx'
 
+
+
 import { BrowserRouter } from 'react-router-dom'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
-      <Navbar/>
+    <Navbar/>
       <App />
     </BrowserRouter>
   </React.StrictMode>,
