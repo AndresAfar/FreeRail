@@ -28,10 +28,11 @@ export const Home = () => {
     <div className='container p-4'>
         <div className='content-map pt-5 h-full w-full'>
             <div className='map text-white bg-slate-600 border-2 rounded-md h-[530px]'>
-              <MapContainer center={[4.662176276366342, -74.0888006455318]} zoom={6}>
+              <MapContainer center={[4.662176276366342, -74.0888006455318]} zoom={11}>
                 <TileLayer
-                  attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-                  url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                  attribution='&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                  url='https://tiles.stadiamaps.com/tiles/osm_bright/{z}/{x}/{y}{r}.{ext}'
+                  ext='png'
                 />
                 <MarkerClusterGroup>
 
