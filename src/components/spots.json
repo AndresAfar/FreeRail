@@ -10,5 +10,23 @@
         "nombre":"Parque Piloto",
         "descripcion":"Un skatepark pequenio en forma de circutio",
         "img":"https://lh3.googleusercontent.com/p/AF1QipPP9SpGCXJTtZx84QQwaHbXmiYfUFrFz4bKyWvx=s680-w680-h510"
+    },
+    {
+        "id":3,
+        "nombre":"LowPark",
+        "descripcion":"Un spot ideal para aprender baranda y cajo",
+        "img":"https://lh3.googleusercontent.com/p/AF1QipMA5lmAAcNivr-NucdLZI6Xf6hGMao_UPas8vrL=s680-w680-h510"
+    },
+    {
+        "id":4,
+        "nombre":"Tercer Milenio",
+        "descripcion":"Gran skatepark con modulos de diferentes dificultades",
+        "img":"https://lh3.googleusercontent.com/p/AF1QipMA5lmAAcNivr-NucdLZI6Xf6hGMao_UPas8vrL=s680-w680-h510"
+    },
+    {
+        "id":5,
+        "nombre":"Plaza Santander",
+        "descripcion":"Iconico spot de flat de la ciudad de bogota",
+        "img":"https://lh3.googleusercontent.com/p/AF1QipMA5lmAAcNivr-NucdLZI6Xf6hGMao_UPas8vrL=s680-w680-h510"
     }
 ]
