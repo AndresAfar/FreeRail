@@ -34,10 +34,10 @@ export const Home = () => {
                   url='https://tile.openstreetmap.org/{z}/{x}/{y}.png'
                 />
                 <MarkerClusterGroup>
-                {markers.map(marker =>(
-                  <Marker position={marker.geocode}>
+                {data.map(spot =>(
+                  <Marker position={spot.geocode}>
                     <Popup>
-                      {marker.popUp}
+                      {spot.popUp}
                     </Popup>
                   </Marker>
                 ))
