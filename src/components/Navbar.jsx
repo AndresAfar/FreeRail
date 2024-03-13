@@ -1,5 +1,7 @@
 import React from 'react'
 
+import logoFreeRail from '../assets/img/FreeRail_Logo.png'
+
 export const Navbar = () => {
   return (
     <>
@@ -9,7 +11,7 @@ export const Navbar = () => {
 <nav class="">
   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
   <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
-      <img src="/src/assets/img/FreeRail_Logo.png" class="h-11" alt="FreeRail Logo" />
+      <img src={logoFreeRail} class="h-11" alt="FreeRail Logo" />
       <span class="text-white self-center text-2xl font-semibold whitespace-nowrap">FreeRail</span>
   </a>
   <div class="flex md:order-2">
