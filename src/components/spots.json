@@ -43,7 +43,7 @@
         "id":6,
         "nombre":"Spot Puente de la 68",
         "descripcion":"Nuevo spot debajo del puente de la 68",
-        "img":"/src/assets/img/img01_spot68.png",
+        "img":"../assets/img/img01_spot68.png",
         "geocode": [4.684019994703937, -74.07873726899953],
         "popUp": "Spot de la 68"
     },
@@ -51,7 +51,7 @@
         "id":7,
         "nombre":"Spot Ean",
         "descripcion":"Spot de la Univesidad Ean",
-        "img":"/src/assets/img/img02_spotEan.png",
+        "img":"../assets/img/img02_spotEan.png",
         "geocode": [4.663368312552752, -74.05458717993618],
         "popUp": "Spot de la U Ean"
     },
@@ -59,7 +59,7 @@
         "id":8,
         "nombre":"Spot C.C. Andino",
         "descripcion":"Spot Frente al Centro comercial Andino",
-        "img":"/src/assets/img/img03_spotBanColCra11.png",
+        "img":"../assets/img/img03_spotBanColCra11.png",
         "geocode": [4.665566616291858, -74.05301116443364],
         "popUp": "Spot del CC Andino"
     }
@@ -68,7 +68,7 @@
         "id":9,
         "nombre":"Spot Casa Blanca Suba",
         "descripcion":"Spot de una barra para deslizar junto a una coyota",
-        "img":"/src/assets/img/img04_spotCasaBlanca.png",
+        "img":"../assets/img/img04_spotCasaBlanca.png",
         "geocode": [4.735996713759985, -74.07698960050233],
         "popUp": "Spot de Casa Blanca Suba"
     }
